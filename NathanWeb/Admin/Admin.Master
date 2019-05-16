@@ -1,0 +1,28 @@
+﻿<%@ Master Language="C#" AutoEventWireup="false" CodeBehind="Admin.master.cs" Inherits="NathanWeb.Admin.Admin" 
+%><!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title>NathanBelue.com</title>
+    
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="/assets/admin.css">
+</head>
+<body>
+    <header id="main-header">
+        Signed in as test.
+        <nav id="main-nav">
+            <li><a href="Categories">Categories</a></li>
+            <li><a href="Tips">Tips</a></li>
+            <li><a href="Admins">Admins</a></li>
+            <li><a href="SignOut">Sign Out</a></li>
+        </nav>
+    </header>
+
+<asp:ContentPlaceHolder ID="phContent" runat="server" />
+
+</body>
+</html>

@@ -1,0 +1,177 @@
+﻿html {
+    min-height: 100%;
+}
+
+article {
+    margin: 0 auto 2em auto;
+    max-width: 800px;
+    text-align: left;
+}
+
+body {
+    background: #eee;
+    background: radial-gradient(farthest-side at 90% 10%, #fff, rgba(204,204,204,0)) no-repeat 100% 0%, linear-gradient(90deg, #fff, #ccc) no-repeat;
+    background-attachment: fixed;
+    background-size: 15% 80%, 100% 100%;
+    box-sizing: border-box;
+    color: #333;
+    font: 16px/1.2em 'Lato', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    min-width: 320px;
+    margin: 0;
+    padding-bottom: 24px;
+    position: relative;
+    text-align: center;
+}
+
+figure {
+    margin: 0 16px;
+    padding: 0;
+}
+
+h2 {
+    font-size: 1.4em;
+    margin: 0.5em 0;
+}
+h3 {
+    font-size: 1.1em;
+    margin: 0.5em 0;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 1200px;
+    position: relative;
+}
+
+p {
+    margin: 1em 0;
+    text-indent: 1.5em;
+}
+
+section {
+    border-bottom: 2px solid #ccc;
+}
+
+
+#main-header {
+    margin: 0 0 1em 0;
+}
+
+#main-nav {
+    font: 1.2em Georgia, serif;
+    padding: 4px 0 12px 0;
+}
+    #main-nav a {
+        color: inherit;
+        display: block;
+        padding: 8px 8px 0 8px;
+        text-decoration: none;
+    }
+    #main-nav li {
+        border-bottom: 2px solid transparent;
+        display: inline-block;
+        margin: 0 16px;
+        position: relative;
+        transition: border-color 0.3s;
+    }
+        #main-nav li:hover {
+            border-color: #00a;
+        }
+
+#side-nav {
+    color: #444;
+    left: 0;
+    position: absolute;
+    text-align: left;
+    top: 0;
+    width: 172px;
+}
+    #side-nav a {
+        color: inherit;
+        display: block;
+        padding: 4px 8px;
+        text-decoration: none;
+    }
+        #side-nav a:hover {
+            text-decoration: underline;
+        }
+    #side-nav li {
+        display: block;
+    }
+    #side-nav ul {
+        margin: 0;
+        padding: 0;
+    }
+    #side-nav .category {
+        background: #eee;
+        font: 16px Georgia, serif;
+        padding: 8px;
+    }
+    #side-nav .item {
+        border-bottom: 1px solid #eee;
+        color: #00a;
+        font: 14px 'Lato', sans-serif;
+    }
+    #side-nav .active {
+    }
+
+#social-strip {
+    bottom: 8px;
+    display: inline-block;
+    height: 40px;
+    left: 50%;
+    margin: 0 0 0 -60px;
+    padding: 0;
+    position: absolute;
+}
+    #social-strip a {
+        display: block;
+        height: 24px;
+        padding: 8px;
+        width: 24px;
+    }
+    #social-strip img {
+        width: 100%;
+    }
+    #social-strip li {
+        display: block;
+        float: left;
+        width: 40px;
+    }
+    #social-strip.animated a {
+        transition: all 0.1s;
+    }
+        #social-strip.animated a:hover {
+            height: 23px;
+            padding: 0 4px 8px 4px;
+            width: 32px;
+        }
+
+#splash {
+    bottom: 0;
+    font: 3em Georgia, serif;
+    left: 0;
+    height: 1em;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.add-content-margin { /* margins like a paragraph */
+    margin: 0.5em 0;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+}
+.column {
+    text-align: center;
+}
+
+.remove-text { /* useful for not rendering whitespace between divs */
+    font: 0/0 serif;
+}

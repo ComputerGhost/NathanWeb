@@ -1,0 +1,56 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="NathanWeb.Site"
+%><!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title>NathanBelue.com</title>
+    
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="/assets/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" 
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" 
+        crossorigin="anonymous"></script>
+</head>
+<body>
+    <header id="main-header">
+        <nav id="main-nav">
+            <li><a href="/">Homepage</a></li>
+            <li><a href="/About">Nathan Belue</a></li>
+            <li><a href="/Portfolio">Portfolio</a></li>
+            <li><a href="/Tips">Code Tips</a></li>
+        </nav>
+    </header>
+
+<asp:ContentPlaceHolder ID="phContent" runat="server" />
+    
+    <ul id="social-strip">
+        <li>
+            <a target="_blank" href="https://nathanbelue.blogspot.com/">
+                <img alt="Blogger" src="assets/icon_blogger.png">
+            </a>
+        </li>
+        <li>
+            <a target="_blank" href="https://www.facebook.com/ComputerGhost">
+                <img alt="Facebook" src="assets/icon_facebook.png">
+            </a>
+        </li>
+        <li>
+            <a target="_blank" href="https://github.com/ComputerGhost/">
+                <img alt="Github" src="assets/icon_github.png">
+            </a>
+        </li>
+        <li>
+            <a target="_blank" href="https://twitter.com/Nathan_Belue">
+                <img alt="Twitter" src="assets/icon_twitter.png">
+            </a>
+        </li>
+    </ul>
+    <script>$('#social-strip').addClass('animated')</script>
+
+</body>
+</html>
