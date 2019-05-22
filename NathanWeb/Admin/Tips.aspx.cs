@@ -8,17 +8,17 @@ using System.Web.UI.WebControls;
 
 namespace NathanWeb.Admin
 {
-    public partial class Categories : System.Web.UI.Page
+    public partial class Tips : System.Web.UI.Page
     {
         protected void btnAdd_Click(object sender, EventArgs e)
         {
-            using (var connection = new SqlConnection(dsCategories.ConnectionString))
+            using (var connection = new SqlConnection(dsTips.ConnectionString))
             {
                 connection.Open();
-                var cmd = new SqlCommand("INSERT INTO categories (orderBy,name,active) VALUES (0,'',0)", connection);
+                var cmd = new SqlCommand("INSERT INTO tips (orderBy,title,content,orderBy,active) VALUES (0,'','',0)", connection);
                 cmd.ExecuteNonQuery();
             }
-            gvCategories.DataBind();
+            gvTips.DataBind();
         }
     }
 }
