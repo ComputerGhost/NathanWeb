@@ -21,8 +21,6 @@
         <nav id="main-nav">
             <li><a href="/">Homepage</a></li>
             <li><a href="/About">Nathan Belue</a></li>
-            <li><a href="/Portfolio">Portfolio</a></li>
-            <li><a href="/Tips">Code Tips</a></li>
         </nav>
     </header>
 
