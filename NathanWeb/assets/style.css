@@ -42,6 +42,7 @@ h3 {
 main {
     margin: 0 auto;
     max-width: 1200px;
+    padding: 0 8px;
     position: relative;
 }
 
@@ -79,43 +80,6 @@ section {
         #main-nav li:hover {
             border-color: #00a;
         }
-
-#side-nav {
-    color: #444;
-    left: 0;
-    position: absolute;
-    text-align: left;
-    top: 0;
-    width: 172px;
-}
-    #side-nav a {
-        color: inherit;
-        display: block;
-        padding: 4px 8px;
-        text-decoration: none;
-    }
-        #side-nav a:hover {
-            text-decoration: underline;
-        }
-    #side-nav li {
-        display: block;
-    }
-    #side-nav ul {
-        margin: 0;
-        padding: 0;
-    }
-    #side-nav .category {
-        background: #eee;
-        font: 16px Georgia, serif;
-        padding: 8px;
-    }
-    #side-nav .item {
-        border-bottom: 1px solid #eee;
-        color: #00a;
-        font: 14px 'Lato', sans-serif;
-    }
-    #side-nav .active {
-    }
 
 #social-strip {
     bottom: 8px;
@@ -166,7 +130,9 @@ section {
 
 .columns {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+    max-width: 100%;
 }
 .column {
     text-align: center;
@@ -175,3 +141,14 @@ section {
 .remove-text { /* useful for not rendering whitespace between divs */
     font: 0/0 serif;
 }
+
+
+@media screen and (max-width: 808px) {
+    .columns {
+        justify-content: center;
+    }
+    .column {
+        margin: 2px;
+    }
+}
+

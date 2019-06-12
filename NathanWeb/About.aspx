@@ -14,7 +14,7 @@
             <h2>Programming</h2>
             <p>I started when I was 14, when my dad gave me an old computer. It came with a word processor, a text editor, and a compiler. If I wanted anything else, I had to make it.</p>
             <p>Now, years later, I'm a damn good programmer. I'm commonly complimented for being smart, but I think that misses the point. Skills don't come free. I had to earn this one with hard work and dedication. Most people could do the same.</p>
-            <p>Check out my <a href="/Tips">tips page</a> for some of what I've learned along the way.</p>
+            <p>&nbsp;</p>
         </section>
 
         <section>
