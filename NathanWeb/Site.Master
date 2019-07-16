@@ -12,6 +12,14 @@
     <link rel="stylesheet" href="/assets/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <style> body { min-height: 240px } </style>
+    <![endif]-->
+    <!--[if lt IE 8]>
+        <style> #social-strip, #splash { position: relative } </style>
+    <![endif]-->
+
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" 
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" 
         crossorigin="anonymous"></script>
